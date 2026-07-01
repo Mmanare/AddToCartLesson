@@ -11,7 +11,7 @@ public class BaseTest {
     @BeforeMethod
     public void setUp(){
         driver = new EdgeDriver();
-        driver.manage().window().maximize();
+
         driver.get("https://www.takealot.com/3-set-laptop-bag-black/PLID73915566");
     }
     @AfterMethod
